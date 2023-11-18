@@ -20,7 +20,7 @@ func init() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	counter.Inc()
-	w.Write([]byte("Hello, world!"))
+	w.Write([]byte("Hello, world!\n"))
 }
 
 func main() {

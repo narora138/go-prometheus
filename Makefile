@@ -19,5 +19,5 @@ local-test:
 	curl localhost:8080/metrics
 
 clean:
-	rm server
+	-rm server
 	docker compose down
