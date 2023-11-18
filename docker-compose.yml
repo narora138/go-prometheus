@@ -3,9 +3,6 @@ services:
   my-golang-app:
     build: .
     ports:
-<<<<<<< HEAD
-      - "8080:8080"
-=======
       - "8080:8080"
 
   prometheus:
@@ -16,4 +13,3 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
     ports:
       - "9090:9090"
->>>>>>> c97d2bfe57dce5890e14f32dde03894b2bd25c6d
